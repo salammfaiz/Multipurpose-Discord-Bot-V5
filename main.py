@@ -22,7 +22,7 @@ os.environ["JISHAKU_HIDE"] = "True"
 os.environ["JISHAKU_NO_UNDERSCORE"] = "True"
 os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
-token = TOKEN
+token = os.getenv("TOKEN")
 
 client = Astroz()
 tree = client.tree
