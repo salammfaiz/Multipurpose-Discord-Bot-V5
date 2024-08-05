@@ -5,8 +5,8 @@
     "TOKEN": "Your Bot Token Here",
     "BotName": "robi",
     "serverLink": "https://discord.gg/encoders",
-    "wh_cl": "https://discord.com/api/v10/webhooks/1265551482711965707/gCtHpqrtL_BRN60ydt_jR5RJa7ADr-Jku6Ho8wwiFAnlTT-zLTVov7lTp0tgXroqDnEI",
-    "wh_bl": "https://discord.com/api/v10/webhooks/1265551482711965707/gCtHpqrtL_BRN60ydt_jR5RJa7ADr-Jku6Ho8wwiFAnlTT-zLTVov7lTp0tgXroqDnEI",
+    "wh_cl": "https://discord.com/api/webhooks/1265551482711965707/gCtHpqrtL_BRN60ydt_jR5RJa7ADr-Jku6Ho8wwiFAnlTT-zLTVov7lTp0tgXroqDnEI",
+    "wh_bl": "https://discord.com/api/webhooks/1265551482711965707/gCtHpqrtL_BRN60ydt_jR5RJa7ADr-Jku6Ho8wwiFAnlTT-zLTVov7lTp0tgXroqDnEI",
     "statusText": ".help | FaizenSosuke",
     "EXTENSIONS": [
         "cogs.events"
