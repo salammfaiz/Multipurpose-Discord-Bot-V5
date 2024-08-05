@@ -6,7 +6,7 @@ from utils.Tools import *
 class Dropdown(discord.ui.Select):
 
     def __init__(self, ctx, options):
-        super().__init__(placeholder="Select Module To Get Help For That Module.",
+        super().__init__(placeholder="Click to See All Commands .",
                          min_values=1,
                          max_values=1,
                          options=options)
