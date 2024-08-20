@@ -102,12 +102,12 @@ class View(discord.ui.View):
                               command=self.set_page,
                               args=0,
                               ctx=self.ctx)
-        self.backB = Buttons(label="Back",
+        self.backB = Buttons(label="◀️",
                              style=discord.ButtonStyle.success,
                              command=self.to_page,
                              args=-1,
                              ctx=self.ctx)
-        self.nextB = Buttons(label="Next",
+        self.nextB = Buttons(label="▶️",
                              style=discord.ButtonStyle.success,
                              command=self.to_page,
                              args=+1,
