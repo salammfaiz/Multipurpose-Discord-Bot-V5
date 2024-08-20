@@ -19,7 +19,7 @@ class Hacker121(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.color = 0x2f3136
+        self.color = 0x00ff39
 
 
                 

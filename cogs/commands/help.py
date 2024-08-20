@@ -18,7 +18,7 @@ client = Astroz()
 
 
 
-color = 0x2f3136
+color = 0x00ff39
            
 
 General = "🗜"
@@ -121,7 +121,7 @@ class HelpCommand(commands.HelpCommand):
     embed.set_author(name=self.context.author,icon_url=self.context.author.avatar.url if self.context.author.avatar else self.context.author.default_avatar.url)
 
     embed.set_footer(
-      text=f"Requested By {self.context.author}",
+      text=f"Made With ❤️ By FaizenSosuke",
       icon_url=self.context.author.avatar.url if self.context.author.avatar else self.context.author.default_avatar.url
     )
 
@@ -279,7 +279,7 @@ class Help(Cog, name="help"):
     attributes = {
       'name':
       "help",
-      'aliases': ['h'],
+      'aliases': ['h', 'hlp'],
       'cooldown':
       commands.CooldownMapping.from_cooldown(1, 5, commands.BucketType.user),
       'help':
