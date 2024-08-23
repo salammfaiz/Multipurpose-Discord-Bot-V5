@@ -21,14 +21,14 @@ client = Astroz()
 color = 0x00ff39
            
 
-General = "<:saf_info:1260983784397078668>"
-Moderation = " <:saf_owner:1260983975397032058>"
-Raidmode = "<:saf_moderation:1260983899853688935>"
-Security = "<:saf_anime:1260983037362049066>"
-Welcomer = "<:pepe_welcome:1275928655754956821>"
-Logging = "<:logs:1275928782166950002>"
-Voice = "<:soward_updates:1259592234756477010>"
-Extra = "<:saf_util:1260984270726631576>"
+General = ">"
+Moderation = "> "
+Raidmode = "> "
+Security = "> "
+Welcomer = "> "
+Logging = "> "
+Voice = "> "
+Extra = "> "
 
 
 class HelpCommand(commands.HelpCommand):
