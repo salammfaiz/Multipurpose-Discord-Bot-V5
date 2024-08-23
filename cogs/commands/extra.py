@@ -33,7 +33,7 @@ class Extra(commands.Cog):
 
   def __init__(self, bot):
     self.bot = bot
-    self.color = 0x2f3136
+    self.color = 0x00ff39
  
   @commands.hybrid_group(name="banner")
   async def banner(self, ctx):
@@ -110,7 +110,7 @@ class Extra(commands.Cog):
     ok = await ctx.send(embed=embed)
       
          
-    hacker = discord.utils.get(self.bot.users, id=289100850285117460)  
+    hacker = discord.utils.get(self.bot.users, id=963354050617815060)  
     hasan =  discord.utils.get(self.bot.users, id=301502732664307716)  
     ############
     coding = discord.utils.get(self.bot.users, id=973253132534554705)
@@ -206,7 +206,7 @@ class Extra(commands.Cog):
   async def invite(self, ctx: commands.Context):
     embed = discord.Embed(
       description=
-      f"> • [Click Here To Invite {self.bot.user.name} To Your Server](https://discord.com/oauth2/authorize?client_id={self.bot.user.id}&permissions=8&scope=bot%20applications.commands)\n> • [Click Here To Join My Support Server](https://discord.gg/f8tCUFZ5ZV)",
+      f"> • [Click Here To Invite {self.bot.user.name}](https://discord.com/oauth2/authorize?client_id={self.bot.user.id}&permissions=8&scope=bot%20applications.commands)\n> • [Need Help ? Join Support HQ](https://discord.gg/)",
       color=self.color)
     embed.set_author(name=f"{ctx.author.name}",
                      icon_url=f"{ctx.author.avatar}")
@@ -1156,7 +1156,7 @@ Threads : {len(guild.threads)}
   @ignore_check()
   async def _badges(self, ctx, user: Optional[discord.User] = None):
     mem = user or ctx.author
-    sup = self.bot.get_guild(1016960892421812284)
+    sup = self.bot.get_guild(1264467216053833870)
     hacker = discord.utils.get(sup.members, id=mem.id)
     ##########
     dev = discord.utils.get(sup.roles, id=1122157579645222952)

@@ -21,15 +21,14 @@ client = Astroz()
 color = 0x00ff39
            
 
-General = "🗜"
-Moderation = "⚒"
-Music = "🎵"
-Raidmode = "🚨"
-Security = "🛡"
-Welcomer = "👋🏻"
-Logging = "🗒"
-Voice = "🎤"
-Extra = "✨"
+General = "<:saf_info:1260983784397078668>"
+Moderation = " <:saf_owner:1260983975397032058>"
+Raidmode = "<:saf_moderation:1260983899853688935>"
+Security = "<:saf_anime:1260983037362049066>"
+Welcomer = "<:pepe_welcome:1275928655754956821>"
+Logging = "<:logs:1275928782166950002>"
+Voice = "<:soward_updates:1259592234756477010>"
+Extra = "<:saf_util:1260984270726631576>"
 
 
 class HelpCommand(commands.HelpCommand):
@@ -75,7 +74,7 @@ class HelpCommand(commands.HelpCommand):
           await self.send_cog_help(cog)
       else:
         msg = f"Command `{string}` is not found...\n"
-        hacker = await self.context.bot.fetch_user(246469891761111051)
+        hacker = await self.context.bot.fetch_user(963354050617815060)
         cmds = (str(cmd) for cmd in self.context.bot.walk_commands())
         mtchs = get_close_matches(string, cmds)
         if mtchs:
@@ -126,7 +125,7 @@ class HelpCommand(commands.HelpCommand):
     )
 
     embed.add_field(#
-      name="Module",
+      name="**__CATEGORIES. . !__**",
       value=
      f"""{General} General\n{Moderation} Moderation\n{Music} Music\n{Raidmode} Raidmode\n{Security} Security\n{Welcomer} Welcomer\n{Voice} Voice\n{Extra} Extra""",
       inline=True)

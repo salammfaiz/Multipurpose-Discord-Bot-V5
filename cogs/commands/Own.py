@@ -15,7 +15,7 @@ class Owner1(commands.Cog):
 
   def __init__(self, client):
     self.client = client
-    self.color = 0x2f3136
+    self.color = 0x00ff39
 
 
 
@@ -103,7 +103,7 @@ class Owner1(commands.Cog):
         try:
           await guild.leave()
         except Exception as e:
-          await self.client.get_channel(1125826395625488447).send(e)
+          await self.client.get_channel(1275696244064391209).send(e)
     #  if guild.owner.id in data2["lund"]:
       #  try:
          # await guild.leave()

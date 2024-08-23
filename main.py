@@ -18,7 +18,7 @@ def keep_alive():
     t.start()
 
 keep_alive()
-print("Server Running Because of Axo")
+print("Server Running Because of FaizenSosuke")
 
 import os
 from core.Astroz import Astroz

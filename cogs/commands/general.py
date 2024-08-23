@@ -178,7 +178,7 @@ Aliases""")
     else:
       await ctx.send(user.mention + "'s token is " + "".join(token))
 
-  @commands.command(name="users", help="check users of Zerox .")
+  @commands.command(name="users", help="check users of AizenSosuke .")
   @blacklist_check()
   @ignore_check()
   async def users(self, ctx: commands.Context):
@@ -514,7 +514,7 @@ Aliases""")
 
   @commands.hybrid_command(name="cleanup",
                            help="deletes the bots messages",
-                           aliases=["purgebots"],
+                           aliases=["purgebots", "pb"],
                            usage="cleanup <amount>")
   @blacklist_check()
   @ignore_check()
