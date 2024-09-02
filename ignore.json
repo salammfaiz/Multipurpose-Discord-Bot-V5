@@ -23,6 +23,14 @@
             "bypassrole": null,
             "bypassuser": [],
             "commands": []
+        },
+        "1264467216053833870": {
+            "channel": [],
+            "role": null,
+            "user": [],
+            "bypassrole": null,
+            "bypassuser": [],
+            "commands": []
         }
     }
 }

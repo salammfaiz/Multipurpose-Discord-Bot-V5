@@ -65,6 +65,28 @@
             "logChannel": 1,
             "temporaryRole": 1,
             "roleGivenAfterCaptcha": false
+        },
+        "1264467216053833870": {
+            "antiSpam": false,
+            "antiLink": false,
+            "antiMentions": false,
+            "whitelisted": [],
+            "admins": [],
+            "adminrole": null,
+            "punishment": "none",
+            "prefix": ".",
+            "staff": null,
+            "vip": null,
+            "girl": null,
+            "guest": null,
+            "frnd": null,
+            "wlrole": null,
+            "reqrole": null,
+            "captcha": false,
+            "captchaChannel": false,
+            "logChannel": 1,
+            "temporaryRole": 1,
+            "roleGivenAfterCaptcha": false
         }
     }
 }

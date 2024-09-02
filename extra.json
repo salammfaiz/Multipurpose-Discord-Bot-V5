@@ -47,6 +47,18 @@
             "mods": [],
             "modrole": null,
             "ignorechannels": []
+        },
+        "1264467216053833870": {
+            "owners": [],
+            "antiSpam": false,
+            "antiLink": false,
+            "antiinvites": false,
+            "punishment": "mute",
+            "whitelisted": [],
+            "channel": null,
+            "mods": [],
+            "modrole": null,
+            "ignorechannels": []
         }
     }
 }

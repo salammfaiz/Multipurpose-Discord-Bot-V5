@@ -25,8 +25,8 @@ General = ">"
 Moderation = "> "
 Raidmode = "> "
 Security = "> "
-Verification= ">"
-Giveaway = ">"
+Verification= "> "
+Giveaway = "> "
 Welcomer = "> "
 Logging = "> "
 Voice = "> "
@@ -116,7 +116,7 @@ class HelpCommand(commands.HelpCommand):
     embed = discord.Embed(
       title="Overview",
       description=
-      f"The prefix for this server is `{prefix}`\nType `{prefix}help <command/module>` to get more info regarding it\nTotal Commands: `{len(set(self.context.bot.walk_commands()))}` | Usable by you (here): `{len(set(filtered))}`\n [Invite](https://discord.com/oauth2/authorize?client_id={self.context.bot.user.id}&permissions=8&scope=bot%20applications.commands) | [Support server]({serverLink})",
+      f"Default Prefix is  `{prefix}`\nType `{prefix}help <command/module>` to get more info.\nTotal Commands: `{len(set(self.context.bot.walk_commands()))}`\nUsable by you (here): `{len(set(filtered))}`\n [Invite](https://discord.com/oauth2/authorize?client_id={self.context.bot.user.id}&permissions=8&scope=bot%20applications.commands) | [Support]({serverLink})",
       color=color)
     
     embed.set_author(name=self.context.author,icon_url=self.context.author.avatar.url if self.context.author.avatar else self.context.author.default_avatar.url)
@@ -129,11 +129,10 @@ class HelpCommand(commands.HelpCommand):
     embed.add_field(#
       name="**__CATEGORIES. . !__**",
       value=
-     f"""{General} General\n{Moderation} Moderation\n{Raidmode} Verification\n{Raidmode} Raidmode\n{Security} Giveaway\n{Security}
-Security\n{Welcomer} Welcomer\n{Voice} Voice\n{Extra}Extra""",
+     f"""{General} Basic\n{Moderation}Admin\n{Raidmode}Verify\n{Raidmode}Raid\n{Security}Gift\n{Giveaway}Guard\n{Welcomer}Greet\n{Voice}Voice\n{Extra}Extra""",
       inline=True)
-    embed.timestamp = discord.utils.utcnow()
-    #embed.set_thumbnail(url=self.context.bot.user.display_avatar.url)
+   # embed.timestamp = discord.utils.utcnow()
+    embed.set_thumbnail(url=self.context.bot.user.display_avatar.url)
     view = vhelp.View(mapping=mapping,
                           ctx=self.context,
                           homeembed=embed,

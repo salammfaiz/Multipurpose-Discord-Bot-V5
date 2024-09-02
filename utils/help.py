@@ -153,7 +153,7 @@ class View(discord.ui.View):
                 embed = discord.Embed(title=f"{emoji} {label}",
                                       color=0x2f3136)
                 embed.set_footer(text=f"Requested By {self.ctx.message.author}", icon_url=self.ctx.message.author.display_avatar.url)
-                embed.timestamp = discord.utils.utcnow()
+                #embed.timestamp = discord.utils.utcnow()
                 for command in cog.get_commands():
                     params = ""
                     for param in command.clean_params:

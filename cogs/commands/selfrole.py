@@ -17,7 +17,7 @@ class BasicView(discord.ui.View):
     
       
     async def interaction_check(self, interaction: discord.Interaction):
-        if interaction.user.id != self.ctx.author.id and interaction.user.id not in [246469891761111051]:
+        if interaction.user.id != self.ctx.author.id and interaction.user.id not in [948128274649874432]:
             await interaction.response.send_message(f"Um, Looks like you are not the author of the command .", ephemeral=True)
             return False
         return True
