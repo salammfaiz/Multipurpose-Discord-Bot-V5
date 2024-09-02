@@ -25,6 +25,8 @@ General = ">"
 Moderation = "> "
 Raidmode = "> "
 Security = "> "
+Verification= ">"
+Giveaway = ">"
 Welcomer = "> "
 Logging = "> "
 Voice = "> "
@@ -127,7 +129,8 @@ class HelpCommand(commands.HelpCommand):
     embed.add_field(#
       name="**__CATEGORIES. . !__**",
       value=
-     f"""{General} General\n{Moderation} Moderation\n{Raidmode} Music\n{Raidmode} Raidmode\n{Security} Security\n{Welcomer} Welcomer\n{Voice} Voice\n{Extra} Extra""",
+     f"""{General} General\n{Moderation} Moderation\n{Raidmode} Verification\n{Raidmode} Raidmode\n{Security} Giveaway\n{Security}
+Security\n{Welcomer} Welcomer\n{Voice} Voice\n{Extra}Extra""",
       inline=True)
     embed.timestamp = discord.utils.utcnow()
     #embed.set_thumbnail(url=self.context.bot.user.display_avatar.url)
